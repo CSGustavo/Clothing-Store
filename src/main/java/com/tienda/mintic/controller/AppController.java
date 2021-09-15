@@ -27,5 +27,10 @@ public class AppController {
 		return "admin";
 	}
 	
+	@GetMapping({"/logout"})
+	public String logout(){
+		return "logout";
+	}
+	
 	
 }
